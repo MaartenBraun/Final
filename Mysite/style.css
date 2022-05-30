@@ -1,0 +1,64 @@
+
+
+    
+
+body {
+    background-color: darkkhaki;
+    font-size: x-large;
+    font-family: Courier;
+    font-weight: 550;
+}
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 10px;
+    border: black solid 2px;
+    background: rgb(79, 110, 53);
+    cursor: pointer;
+  }
+  .closeIcon {
+    display: none;
+  }
+  .menu {
+    position: center;
+    transform: translateY(-150%);
+    transition: transform .9s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: transparent;
+    color: black;
+    list-style: none;
+    padding: 6rem 0 2rem 0;
+    width: 200px;
+    
+  }
+  
+  
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  #aqua {color: aquamarine }
+  #groen {color:lightseagreen}
+  #blauw{color: cadetblue}
+  #geel {color: lavenderblush}
+  .menuItem {
+    border-style: solid; 
+    border-radius: 10px; 
+    border-width: 5px; 
+    width: 100%; 
+    float:left;
+    margin: 5px;
+  }
+
+  p {position: relative; left: 10px; bottom: -50px;
+    font-size: 200%;
+    }
+  
+  
+  
